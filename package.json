@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-geolocation": "^1.0.4",
     "react-scripts": "2.0.5"
   },
   "scripts": {
@@ -21,5 +22,22 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "FeedMe. Food selection made simple.",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewGaard/FeedMe-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewGaard/FeedMe-/issues"
+  },
+  "homepage": "https://github.com/DrewGaard/FeedMe-#readme"
 }

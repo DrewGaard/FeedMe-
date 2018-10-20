@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { render } from 'react-dom';
+
+import { Location } from './components/Location';
 
 class App extends Component {
   render() {
@@ -11,6 +14,12 @@ class App extends Component {
           <p>
             Welcome to FeedMe. We decide for you.
           </p>
+
+
+          <div>
+            <Location/>
+          </div>
+
           <a
             className="App-link"
             href="https://reactjs.org"
